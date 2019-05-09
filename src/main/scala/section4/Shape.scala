@@ -13,3 +13,10 @@ trait Rectangular extends Shape {
   override def perimeter: Double = 2 * (width + length)
 }
 
+case class Square(side: Double) extends Rectangular {
+  val width = side
+  val length = side
+}
+
+case class Rectangle(width: Double, length: Double) extends Rectangular
+
