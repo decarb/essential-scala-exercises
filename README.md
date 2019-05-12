@@ -26,7 +26,7 @@ The branch `1-setup` contains the setup files for the exercises that follow.
 6. Create an object called `Cop`
 7. Define a method for the `Cop` object called `inspect` which takes a `Person` object as an argument. The method should pattern match over the `Person` and return appropriate Strings for whether or not the person is drunk. If they are drunk return a message involving their name and surname which tells them they are drunk and if they aren’t drunk then just return some message to tell them to move on. (HINT: Check page 80)
 
-# Section 4 - Modelling Data with Traits
+## Section 4 - Modelling Data with Traits
 
 1. Create a trait called `Shape` which defines two abstract methods (methods that only have a signature) called `area` and `perimeter`. These methods should both return Doubles. An example of an abstract method is as follows: 
 ```scala
