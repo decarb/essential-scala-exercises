@@ -37,5 +37,5 @@ def giveString: String
 overide def foo(bar: Bar): Baz = ???
 ```
 3. Now create two case classes, `Square` and `Rectangle`, which extend the `Rectangular` trait. Ensure that you set the inherited fields correctly inside the `Square` case class.
-4. Implement the base model for a `StringList` which is similar to the `IntList` model described on page 110 except that it acts as a L`LinkedList` for Strings and not Integers.
+4. Implement the base model for a `StringList` which is similar to the `IntList` model described on page 110 except that it acts as a `LinkedList` for Strings and not Integers.
 5. Add a method called `concatenate` inside the `StringList` trait which returns a concatenation of all the elements in the `StringList`. 
